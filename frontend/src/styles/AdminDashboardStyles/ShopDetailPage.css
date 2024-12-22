@@ -1,0 +1,104 @@
+.shop-detail-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-bottom: 15px;
+    background: #0066cc;
+    color: #fff;
+    padding: 6px 10px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .back-link:hover {
+    background: #0055aa;
+  }
+  
+  .products-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .product-card {
+    background: #f8f8f8;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .product-card p {
+    margin: 4px 0;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    background: #0066cc;
+    color: #fff;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 6px;
+    cursor: pointer;
+  }
+  
+  .edit-btn:hover {
+    background: #0055aa;
+  }
+  
+  .delete-btn {
+    background: #f44336;
+  }
+  
+  .delete-btn:hover {
+    background: #da1b19;
+  }
+  
+  .product-form-wrapper {
+    margin-top: 30px;
+    border-top: 2px solid #f0f0f0;
+    padding-top: 20px;
+  }
+  
+  .product-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    background: #0066cc;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background: #0055aa;
+  }
+  
